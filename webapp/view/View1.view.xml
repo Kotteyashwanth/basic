@@ -1,6 +1,18 @@
-<mvc:View controllerName="project2.controller.View1"
+<mvc:View
+    controllerName="project2.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+
+    <Page title="== vs === Demo">
+        <content>
+
+            <VBox class="sapUiSmallMargin">
+                <!-- Output -->
+                <Text id="txtResult" wrapping="true" />
+
+            </VBox>
+
+        </content>
     </Page>
+
 </mvc:View>
